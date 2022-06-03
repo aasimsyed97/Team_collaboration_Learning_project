@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        #nav {
+            background-color: #13142e;
+            width: 100%;
+            height: 63px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15px;
+        }
+
+        #nav>div:first-child {
+            color: #fff;
+            width: 20%;
+            padding-left: 34px;
+            font-weight: 800;
+            font-size: 21px;
+        }
+
+        #nav>div:last-child {
+            color: #fff;
+            width: 30%;
+        }
+
+        #nav>div:last-child>ul {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        ul>li {
+            list-style: none;
+            width: 15%;
+        }
+
+        ul>li>a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            font-weight: 800;
+            transition: all 0.13s;
+        }
+
+        ul>li>a:hover {
+            color: #c0c0c0;
+            border-bottom: 2px solid #ffcc02;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div>
+            <h2>Reebok</h2>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="">Men</a>
+
+                </li>
+                <li>
+                    <a href="">Women</a>
+
+                </li>
+                <li>
+                    <a href="">Login</a>
+
+                </li>
+                <li>
+                    <a href="">Signup</a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
